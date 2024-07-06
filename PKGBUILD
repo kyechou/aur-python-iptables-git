@@ -5,10 +5,11 @@ pkgname=python-iptables-git
 pkgdesc='Python bindings for iptables'
 url='https://github.com/ldx/python-iptables'
 pkgver=1.0.1.r3.g5bb75df
-pkgrel=1
+pkgrel=2
 arch=('any')
 depends=('python' 'iptables')
-makedepends=('git' 'python-build' 'python-installer' 'python-wheel')
+makedepends=('git' 'python-setuptools' 'python-build' 'python-installer'
+             'python-wheel')
 checkdepends=()
 optdepends=()
 license=('Apache')

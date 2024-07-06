@@ -1,11 +1,12 @@
 pkgbase = python-iptables-git
 	pkgdesc = Python bindings for iptables
 	pkgver = 1.0.1.r3.g5bb75df
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ldx/python-iptables
 	arch = any
 	license = Apache
 	makedepends = git
+	makedepends = python-setuptools
 	makedepends = python-build
 	makedepends = python-installer
 	makedepends = python-wheel
